@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.bg-menu {
+    margin: auto 50px;
+}
+
+#menu {
+    background: #f6ad49 url(character_pattern_2X.jpg) left top;
+    background-size: 81px 159px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#menu .nav-pills {
+    border-color: transparent;
+    font-family: 'Nerko One', cursive;
+    color: #000;
+    margin: 25px;
+}
+
+#menu .nav-item {
+    background-color: #0fb60f00;
+
+}
+
+#menu .nav-pills>li>a,
+#menu .nav-pills>li>a:focus {
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(255, 248, 249);
+    border-radius: 0;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+
+}
+
+#menu .nav-pills>li>a:hover,
+#menu .nav-pills>li>a:focus:hover {
+    color: #fff;
+    background-color: #944743;
+}
+
+#menu .nav-pills>li>a.active,
+#menu .nav-pills>li>a.active:focus {
+    background-color: #944743;
+    color: #fff;
+}
+
+#menu .hr-menu {
+    border: 2px solid #182c39;
+    width: 100%;
+}
+
+#menu .list-group-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 0 auto;
+}
+
+#menu .tab-content .tab-pane h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+}
+
+#menu .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#menu .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#menu .list-group-item h4 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    text-align: left;
+    color: #182c39;
+    text-transform: none;
+    font-size: 20px;
+}
+
+#menu .list-group-item p {
+    text-align: left;
+    color: #555555;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#menu .badge {
+    font-family: 'JetBrains Mono', monospace;
+    border-radius: 0;
+    background-color: #444;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+#menu .right-cover {
+    background-color: #fff0;
+    color: #853533;
+    padding: 10px;
+    text-transform: none;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.3);
+    transition: all 150ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+/* FOR NUMBER INPUT */
+.quantity {
+    position: relative;
+    margin-top: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.quantity input {
+    width: 45px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    border: 1px solid #eee;
+}
+
+.quantity input:focus {
+    outline: 0;
+}
+
+.quantity-nav {
+    float: left;
+    position: relative;
+    height: 42px;
+}
+
+.quantity-button {
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #eee;
+    width: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.7;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.quantity-button.quantity-up {
+    position: absolute;
+    height: 50%;
+    top: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+}
+
+.page-heading h1 {
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+/* ----------------------------------------------- */

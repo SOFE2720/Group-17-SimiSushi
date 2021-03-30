@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background-color: rgb(30, 15, 33);
+    margin: 0;
+    padding: 0;
+}
+
+#client-testimonial-carousel {
+    min-height: 200px;
+}
+
+.blockquote {
+    border-width: 0px;
+}
+
+.container {
+    background: #f6ad49 url(character_pattern_2X.jpg) left top;
+    background-size: 81px 159px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+
+}
+
+.container-form {
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000;
+    width: 400px;
+}
+
+#carousel {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.664)), url('sushi1.jpg');
+
+    /* background: url("sushi1.jpg"); */
+    background-size: cover;
+    width: 100%;
+    padding-top: 66.64%;
+    /* (img-height / img-width * container-width) */
+    /* (853 / 1280 * 100) */
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+
+}
+
+.blockquote-footer {
+    color: ghostwhite;
+}
+
+
+.btn {
+    background-color: rgba(0, 0, 0, .95);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+    color: #fff;
+}
+
+.heading {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Nerko One', cursive;
+
+}
+
+.heading-days {
+    color: #d79d4e;
+    font-size: 30px;
+    font-family: 'Nerko One', cursive;
+
+}
+
+.heading-phone {
+    font-size: 20px;
+}
+
+.container-form .info {
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+form p {
+    color: rgb(36, 36, 36);
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Yeon Sung', cursive;
+}
+
+form input,
+form textarea {
+    font-family: 'Arvo', serif;
+    font-size: smaller;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+}
