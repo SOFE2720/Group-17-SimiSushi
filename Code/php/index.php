@@ -4,6 +4,7 @@
 <head>
   <title>Simi Sushi</title>
 
+  <!-- attach external links to scripts and css -->
   <?php
   require_once("links.html");
   ?>
@@ -12,6 +13,7 @@
 </head>
 
 <body>
+  <!-- navigation bar -->
   <header>
     <div class="container-fluid">
       <nav class="navbar-expand-lg" aria-label="Site header">
@@ -73,7 +75,6 @@
       <p>All food prepared under strict sanitation conditions and a contact-less take-out.</p>
     </div>
   </div>
-
 
 
   <footer class="page-footer" id="footer">
