@@ -30,15 +30,15 @@
 
 
 	<!-- our CSS -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-	<link rel="stylesheet" href="revStyle.css">
+	<link rel="stylesheet" href="../css/revStyle.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
 	<?php
-	require_once("headerNav.html");
+	require_once("../html/headerNav.html");
 	?>
 
 	<div class="container">
@@ -182,7 +182,7 @@
 	</div>
 
 	<?php
-	require_once("footer.html");
+	require_once("../html/footer.html");
 	?>
 
 </body>

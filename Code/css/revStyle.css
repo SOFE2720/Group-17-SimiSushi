@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    background: #f6ad49 url(character_pattern_2X.jpg) left top;
+    background: #f6ad49 url(../img/character_pattern_2X.jpg) left top;
     background-size: 81px 159px;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -50,7 +50,26 @@ body {
 }
 
 #carousel {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.664)), url('sushi1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.664)), url('../img/sushi1.jpg');
+
+    /* background: url("sushi1.jpg"); */
+    background-size: cover;
+    width: 100%;
+    padding-top: 66.64%;
+    /* (img-height / img-width * container-width) */
+    /* (853 / 1280 * 100) */
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+
+}
+#carousel2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.664)), url('../img/promotionscarouselimg.jpg');
 
     /* background: url("sushi1.jpg"); */
     background-size: cover;

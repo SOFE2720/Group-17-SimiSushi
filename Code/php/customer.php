@@ -5,10 +5,10 @@
     <title> Book a reservation! </title>
 
     <?php
-    require_once("links.html");
+    require_once("../html/links.html");
     ?>
 
-    <link rel="stylesheet" href="resStyle.css">
+    <link rel="stylesheet" href="../css/resStyle.css">
 
 </head>
 
@@ -18,22 +18,25 @@
             <nav class="navbar-expand-lg" aria-label="Site header">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link home" href="index.php">HOME</a>
+                        <a class="nav-link home" href="../index.php">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu" href="menu.php">MENU</a>
+                        <a class="nav-link menu" href="../php/menu.php">MENU</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link"> LOCATIONS </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link reservations" href="customer.php" style="font-weight: bold; border-bottom: 2px solid white"> RESERVATIONS </a>
+                        <a class="nav-link reservations" href="../php/customer.php" style="font-weight: bold; border-bottom: 2px solid white"> RESERVATIONS </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link"> ABOUT US </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="../promotions.php">PROMOTIONS</a>
+                    </li>
                     <li class="nav-item orderonline">
-                        <a class="nav-link menu" href="menu.php"> ORDER ONLINE </a>
+                        <a class="nav-link menu" href="../php/menu.php"> ORDER ONLINE </a>
                     </li>
                 </ul>
             </nav>
@@ -183,7 +186,7 @@
     </div>
 
     <?php
-    require_once("footer.html");
+    require_once("../html/footer.html");
     ?>
 
 </body>

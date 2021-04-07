@@ -30,30 +30,32 @@
 
 
     <!-- our CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <link rel="stylesheet" href="revStyle.css">
+    <link rel="stylesheet" href="css/revStyle.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <?php
-    require_once("headerNav.html");
+    require_once("html/headerNav.html");
     ?>
 
     <div class="container">
 
         <h2 class="heading heading-yellow" style="padding-top: 10px; padding-left: 20px; text-align: center;"> Deals of the Week </h2>
 
-        <div class="col-lg-10 offset-lg-1 pt-5 pb-5 text-light" id="carousel">
-            <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel">
+        <div class="col-lg-10 offset-lg-1 pt-5 pb-5 text-light" id="carousel2">
+            <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel2">
                 <div class="carousel-inner" role="listbox">
 
                     <div class="carousel-item active text-center p-4">
+                        <h1>
+                            MONDAY
+                        </h1>
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0">
-                            </p>
-                            <footer class="blockquote-footer">M. Morales<cite title="Source Title"> Student</cite>
+                            
+                            <footer class="footer">50% OFF SIGNATURE ROLLS
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
@@ -61,23 +63,12 @@
                     </div>
 
                     <div class="carousel-item text-center p-4">
+                        <h1>
+                            TUESDAY
+                        </h1>
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><i class="fa fa-quote-left"></i> Stopped by after several positive
-                                recommendations, did not disappoint.
-                            </p>
-                            <footer class="blockquote-footer">Grace Sunderfield <cite title="Source Title">Mirazur
-                                    Chef</cite></footer>
-                            <!-- Client review stars -->
-                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                        </blockquote>
-                    </div>
-
-                    <div class="carousel-item text-center p-4">
-                        <blockquote class="blockquote text-center">
-                            <p class="mb-0"><i class="fa fa-quote-left"></i> Every bite made me want to go back even
-                                more. Amazing staff to top it off.
-                            </p>
-                            <footer class="blockquote-footer">G. Ramsay <cite title="Source Title">TV Chef</cite>
+                            
+                            <footer class="footer">BOGO RICE DISHES
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
@@ -85,11 +76,13 @@
                     </div>
 
                     <div class="carousel-item text-center p-4">
+                        <h1>
+                            WEDNESDAY
+                        </h1>
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><i class="fa fa-quote-left"></i> Every bite made me want to go back even
-                                more. Amazing staff to top it off.
-                            </p>
-                            <footer class="blockquote-footer">G. Ramsay <cite title="Source Title">TV Chef</cite>
+                            
+                            <footer class="footer">KIDS EAT HALF OFF<br>
+                            <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">under 13</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
@@ -97,11 +90,25 @@
                     </div>
 
                     <div class="carousel-item text-center p-4">
+                        <h1>
+                            THURSDAY
+                        </h1>
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><i class="fa fa-quote-left"></i> Every bite made me want to go back even
-                                more. Amazing staff to top it off.
-                            </p>
-                            <footer class="blockquote-footer">G. Ramsay <cite title="Source Title">TV Chef</cite>
+                            
+                            <footer class="footer">50% OFF GYOZA
+                            </footer>
+                            <!-- Client review stars -->
+                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                        </blockquote>
+                    </div>
+
+                    <div class="carousel-item text-center p-4">
+                        <h1>
+                            FRIDAY
+                        </h1>
+                        <blockquote class="blockquote text-center">
+                            
+                            <footer class="footer">GROUPS 5+ 10% OFF
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
@@ -109,11 +116,13 @@
                     </div>  
 
                     <div class="carousel-item text-center p-4">
+                        <h1>
+                            SATURDAY
+                        </h1>
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><i class="fa fa-quote-left"></i> Every bite made me want to go back even
-                                more. Amazing staff to top it off.
-                            </p>
-                            <footer class="blockquote-footer">G. Ramsay <cite title="Source Title">TV Chef</cite>
+                            
+                            <footer class="footer">1 FREE FRIED RICE<br>
+                                <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">w/ any signature roll purchase</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
@@ -121,11 +130,13 @@
                     </div>
 
                     <div class="carousel-item text-center p-4">
+                        <h1>
+                            SUNDAY
+                        </h1>
                         <blockquote class="blockquote text-center">
-                            <p class="mb-0"><i class="fa fa-quote-left"></i> Every bite made me want to go back even
-                                more. Amazing staff to top it off.
-                            </p>
-                            <footer class="blockquote-footer">G. Ramsay <cite title="Source Title">TV Chef</cite>
+                            
+                            <footer class="footer">LUNCH 12% OFF<br>
+                                <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">11:30-3:00</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
@@ -155,7 +166,7 @@
     </div>
 
     <?php
-    require_once("footer.html");
+    require_once("html/footer.html");
     ?>
 
 </body>

@@ -6,8 +6,10 @@
 
   <!-- attach external links to scripts and css -->
   <?php
-  require_once("links.html");
+  require_once("html/links.html");
+  //should require links
   ?>
+  <link rel="stylesheet" href="css/style.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -22,19 +24,22 @@
             <a class="nav-link home" href="index.php" style="font-weight: bold; border-bottom: 2px solid white;">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link menu" href="menu.php">MENU</a>
+            <a class="nav-link menu" href="php/menu.php">MENU</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link"> LOCATIONS </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link reservations" href="customer.php"> RESERVATIONS </a>
+            <a class="nav-link reservations" href="php/customer.php"> RESERVATIONS </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link"> ABOUT US </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="promotions.php">PROMOTIONS</a>
+          </li>
           <li class="nav-item orderonline">
-            <a class="nav-link menu" href="menu.php"> ORDER ONLINE </a>
+            <a class="nav-link menu" href="php/menu.php"> ORDER ONLINE </a>
           </li>
         </ul>
       </nav>
@@ -52,15 +57,15 @@
       <div class="row">
 
         <div class="col">
-          <img src="sushiRoll.jpg" id="sushi-img">
+          <img src="img/sushiRoll.jpg" id="sushi-img">
         </div>
 
         <div class="col">
-          <img src="rice.jpg" id="rice-img">
+          <img src="img/rice.jpg" id="rice-img">
         </div>
 
         <div class="col">
-          <img src="misoSoup.jpg" id="soup-img">
+          <img src="img/misoSoup.jpg" id="soup-img">
         </div>
 
       </div>
@@ -98,7 +103,7 @@
       <div class="col-md-6 mb-md-0 mb-3" style="padding: 20px;">
 
         <!-- Content -->
-        <a href="review.php">
+        <a href="php/review.php">
           <button type="button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">leave a review<i
               class="fas fa-heart ml-2" aria-hidden="true"></i></button>
         </a>

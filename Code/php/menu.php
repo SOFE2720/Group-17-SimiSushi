@@ -23,8 +23,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-  <link rel="stylesheet" href="menustyle.css" type="text/css">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="../css/menustyle.css" type="text/css">
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
 
 </head>
 
@@ -35,22 +35,25 @@
       <nav class="navbar-expand-lg" aria-label="Site header">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link home" href="index.php">HOME</a>
+            <a class="nav-link home" href="../index.php">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link menu" href="menu.php" style="font-weight: bold; border-bottom: 2px solid white;">MENU</a>
+            <a class="nav-link menu" href="../php/menu.php" style="font-weight: bold; border-bottom: 2px solid white;">MENU</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link"> LOCATIONS </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link reservations" href="customer.php"> RESERVATIONS </a>
+            <a class="nav-link reservations" href="../php/customer.php"> RESERVATIONS </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link"> ABOUT US </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link menu" href="../promotions.php">PROMOTIONS</a>
+          </li>
           <li class="nav-item orderonline">
-            <a class="nav-link menu" href="menu.php"> ORDER ONLINE </a>
+            <a class="nav-link menu" href="../php/menu.php" style="font-weight: bold; border-bottom: 2px solid white;"> ORDER ONLINE</a>
           </li>
         </ul>
       </nav>
@@ -145,7 +148,7 @@
                       <div class="col-sm-5">
                         <div class="right-cover">
                           <h3>Our Signature Rolls</h3>
-                          <img src="bg2.jpg" class="menu-img img-fluid">
+                          <img src="../img/bg2.jpg" class="menu-img img-fluid">
                         </div>
                       </div>
                     </div>
@@ -281,7 +284,7 @@
     </div>
 
     <?php
-    require_once("footer.html");
+    require_once("../html/footer.html");
     ?>
 
     <script>

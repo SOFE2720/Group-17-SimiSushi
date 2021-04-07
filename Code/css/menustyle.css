@@ -9,7 +9,7 @@
 }
 
 #menu {
-    background: #f6ad49 url(character_pattern_2X.jpg) left top;
+    background: #f6ad49 url(../img/character_pattern_2X.jpg) left top;
     background-size: 81px 159px;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
