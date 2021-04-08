@@ -6,28 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Leave a Review! </title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- FontAwesome for icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <?php
+    require_once("html/links.html");
+    //should require links
+    ?>
 
     <!-- our CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -37,9 +20,35 @@
 </head>
 
 <body>
-    <?php
-    require_once("html/headerNav.html");
-    ?>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar-expand-lg" aria-label="Site header">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link home" href="../index.php">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="../php/menu.php">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> LOCATIONS </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link reservations" href="../php/customer.php"> RESERVATIONS </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> ABOUT US </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="../promotions.php" style="font-weight: bold; border-bottom: 2px solid white;">PROMOTIONS</a>
+                    </li>
+                    <li class="nav-item orderonline">
+                        <a class="nav-link menu" href="../php/menu.php"> ORDER ONLINE</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <div class="container">
 
@@ -54,15 +63,17 @@
                             50% OFF SIGNATURE ROLLS
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Monday
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
+
                             <br>
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                            </button>
                         </blockquote>
 
                     </div>
@@ -72,15 +83,17 @@
                             BOGO RICE DISHES
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Tuesday
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
+
                             <br>
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                            </button>
                         </blockquote>
                     </div>
 
@@ -89,15 +102,18 @@
                             KIDS EAT HALF OFF
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Wednesday<br>
-                            <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">under 13</p>
+                                <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">under 13</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+
+                            <a href="/group-17-simisushi/code/php/menu.php"">
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                                </button>
+                            </a>
                         </blockquote>
 
                     </div>
@@ -107,15 +123,17 @@
                             50% OFF GYOZA
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Thursday
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
+
                             <br>
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                            </button>
                         </blockquote>
                     </div>
 
@@ -124,32 +142,36 @@
                             GROUPS 5+ 10% OFF
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Friday
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
+
                             <br>
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
-                            </blockquote>
-                    </div>  
+
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                            </button>
+                        </blockquote>
+                    </div>
 
                     <div class="carousel-item text-center p-4">
                         <h1>
                             1 FREE FRIED RICE
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Saturday<br>
                                 <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">w/ any signature roll purchase</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+
+
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                            </button>
                         </blockquote>
                     </div>
 
@@ -158,18 +180,20 @@
                             LUNCH 12% OFF
                         </h1>
                         <blockquote class="blockquote text-center">
-                            
+
                             <footer class="footer">Sunday<br>
                                 <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">11:30-3:00</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                            
-                            
-                            
-                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+
+
+
+                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                order now!
+                            </button>
                         </blockquote>
-                    </div>   
+                    </div>
 
                 </div>
                 <br>
@@ -187,9 +211,6 @@
         <br>
         <br>
     </div>
-
-
-    
 
     <?php
     require_once("html/footer.html");
