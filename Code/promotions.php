@@ -51,95 +51,123 @@
 
                     <div class="carousel-item active text-center p-4">
                         <h1>
-                            MONDAY
+                            50% OFF SIGNATURE ROLLS
                         </h1>
                         <blockquote class="blockquote text-center">
                             
-                            <footer class="footer">50% OFF SIGNATURE ROLLS
+                            <footer class="footer">Monday
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            
+                            <br>
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="carousel-item text-center p-4">
+                        <h1>
+                            BOGO RICE DISHES
+                        </h1>
+                        <blockquote class="blockquote text-center">
+                            
+                            <footer class="footer">Tuesday
+                            </footer>
+                            <!-- Client review stars -->
+                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            
+                            <br>
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
                         </blockquote>
                     </div>
 
                     <div class="carousel-item text-center p-4">
                         <h1>
-                            TUESDAY
+                            KIDS EAT HALF OFF
                         </h1>
                         <blockquote class="blockquote text-center">
                             
-                            <footer class="footer">BOGO RICE DISHES
-                            </footer>
-                            <!-- Client review stars -->
-                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                        </blockquote>
-                    </div>
-
-                    <div class="carousel-item text-center p-4">
-                        <h1>
-                            WEDNESDAY
-                        </h1>
-                        <blockquote class="blockquote text-center">
-                            
-                            <footer class="footer">KIDS EAT HALF OFF<br>
+                            <footer class="footer">Wednesday<br>
                             <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">under 13</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="carousel-item text-center p-4">
+                        <h1>
+                            50% OFF GYOZA
+                        </h1>
+                        <blockquote class="blockquote text-center">
+                            
+                            <footer class="footer">Thursday
+                            </footer>
+                            <!-- Client review stars -->
+                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            
+                            <br>
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
                         </blockquote>
                     </div>
 
                     <div class="carousel-item text-center p-4">
                         <h1>
-                            THURSDAY
+                            GROUPS 5+ 10% OFF
                         </h1>
                         <blockquote class="blockquote text-center">
                             
-                            <footer class="footer">50% OFF GYOZA
+                            <footer class="footer">Friday
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                        </blockquote>
-                    </div>
-
-                    <div class="carousel-item text-center p-4">
-                        <h1>
-                            FRIDAY
-                        </h1>
-                        <blockquote class="blockquote text-center">
                             
-                            <footer class="footer">GROUPS 5+ 10% OFF
-                            </footer>
-                            <!-- Client review stars -->
-                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            <br>
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
                             </blockquote>
                     </div>  
 
                     <div class="carousel-item text-center p-4">
                         <h1>
-                            SATURDAY
+                            1 FREE FRIED RICE
                         </h1>
                         <blockquote class="blockquote text-center">
                             
-                            <footer class="footer">1 FREE FRIED RICE<br>
+                            <footer class="footer">Saturday<br>
                                 <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">w/ any signature roll purchase</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
                         </blockquote>
                     </div>
 
                     <div class="carousel-item text-center p-4">
                         <h1>
-                            SUNDAY
+                            LUNCH 12% OFF
                         </h1>
                         <blockquote class="blockquote text-center">
                             
-                            <footer class="footer">LUNCH 12% OFF<br>
+                            <footer class="footer">Sunday<br>
                                 <p style="font-size:11px; padding-top: 2px; padding-bottom: 2px">11:30-3:00</p>
                             </footer>
                             <!-- Client review stars -->
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            
+                            
+                            
+                            <input type="button" onclick="location.href='/group-17-simisushi/code/php/menu.php';" class="promo-button" value="order now!"></input>
                         </blockquote>
                     </div>   
 
@@ -161,9 +189,7 @@
     </div>
 
 
-    </div>
-    </div>
-    </div>
+    
 
     <?php
     require_once("html/footer.html");
