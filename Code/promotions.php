@@ -71,9 +71,11 @@
 
                             <br>
 
-                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
-                                order now!
-                            </button>
+                            <a href="/group-17-simisushi/code/php/menu.php">
+                                <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                    order now!
+                                </button>
+                            </a>
                         </blockquote>
 
                     </div>
@@ -91,9 +93,11 @@
 
                             <br>
 
-                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
-                                order now!
-                            </button>
+                            <a href="/group-17-simisushi/code/php/menu.php">
+                                <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                    order now!
+                                </button>
+                            </a>
                         </blockquote>
                     </div>
 
@@ -131,9 +135,11 @@
 
                             <br>
 
-                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
-                                order now!
-                            </button>
+                            <a href="/group-17-simisushi/code/php/menu.php">
+                                <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                    order now!
+                                </button>
+                            </a>
                         </blockquote>
                     </div>
 
@@ -150,9 +156,11 @@
 
                             <br>
 
-                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
-                                order now!
-                            </button>
+                            <a href="/group-17-simisushi/code/php/menu.php">
+                                <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                    order now!
+                                </button>
+                            </a>
                         </blockquote>
                     </div>
 
@@ -169,9 +177,11 @@
                             <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
 
 
-                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
-                                order now!
-                            </button>
+                            <a href="/group-17-simisushi/code/php/menu.php">
+                                <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                    order now!
+                                </button>
+                            </a>
                         </blockquote>
                     </div>
 
@@ -189,9 +199,11 @@
 
 
 
-                            <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
-                                order now!
-                            </button>
+                            <a href="/group-17-simisushi/code/php/menu.php">
+                                <button type=" button" class="btn btn-info btn-rounded btn-lg" style="border-style: none;">
+                                    order now!
+                                </button>
+                            </a>
                         </blockquote>
                     </div>
 
